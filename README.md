@@ -97,7 +97,7 @@ GOOGLE_API_KEY=tu_api_key_aqui
 
 📦 Instrucciones para visualizar el mapa interactivo (HTML)
 
-Este paquete contiene el archivo mapa_establecimientos_completo_v3.html, un mapa interactivo con más de 38.000 registros sanitarios públicos georreferenciados de Argentina (REFES).
+Este paquete contiene el archivo mapa_establecimientos_completo_v3.html https://github.com/Macazella/Geolocalizacion_REFES/blob/DBA/mapa_establecimientos_completo_v3.zip, un mapa interactivo con más de 38.000 registros sanitarios públicos georreferenciados de Argentina (REFES).
 
 Para abrirlo correctamente:
 
