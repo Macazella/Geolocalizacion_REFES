@@ -1,5 +1,3 @@
-Perfecto. A continuación te presento el `README.md` completo y estructurado para el proyecto:
-
 # 🗺️ Proyecto de Geolocalización de Establecimientos Sanitarios Públicos (REFES)
 
 Este proyecto implementa un pipeline completo de procesamiento y geolocalización de datos de establecimientos asistenciales de Argentina, utilizando fuentes oficiales del Registro Federal de Establecimientos de Salud (REFES) publicado por el Ministerio de Salud en [datos.gob.ar](https://datos.gob.ar/ja/dataset/salud_336cf4d9-447a-44c4-8e34-0ba1fc293d55).
@@ -96,6 +94,26 @@ GOOGLE_API_KEY=tu_api_key_aqui
 * Reportes de error automatizados para revisión manual.
 * Mapa interactivo para visualización exploratoria.
 * Base lista para conectar con Power BI o Microsoft Fabric.
+
+📦 Instrucciones para visualizar el mapa interactivo (HTML)
+
+Este paquete contiene el archivo mapa_establecimientos_completo_v3.html, un mapa interactivo con más de 38.000 registros sanitarios públicos georreferenciados de Argentina (REFES).
+
+Para abrirlo correctamente:
+
+No hacer doble clic directo si usás navegadores como Chrome o Edge. En muchos casos se descarga automáticamente sin abrirse.
+
+Abrí el archivo desde un navegador moderno:
+
+Botón derecho sobre el archivo .html → “Abrir con” → Elegí Firefox o Google Chrome.
+
+Si se descarga en lugar de mostrarse, arrastrá el archivo manualmente a una pestaña vacía del navegador.
+
+📌 El archivo puede tardar algunos segundos en cargar por su tamaño (más de 30MB con clusters interactivos).
+
+© Proyecto REFES · Grupo Olmos – Autora: Magalí Cazella
+
+
 
 ---
 
