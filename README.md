@@ -95,19 +95,39 @@ GOOGLE_API_KEY=tu_api_key_aqui
 * Mapa interactivo para visualización exploratoria.
 * Base lista para conectar con Power BI o Microsoft Fabric.
 
+
+📊 Resumen geoespacial:
+FUENTE_GEO
+GoogleAPI    21994
+Nominatim    16458
+Name: count, dtype: int64
+
+🌍 Distribución por provincia:
+PROVINCIA_NOMBRE
+BUENOS AIRES    10292
+CÓRDOBA          3670
+SANTA FE         2580
+TUCUMÁN          2554
+MENDOZA          2389
+CABA             2039
+NEUQUÉN          1795
+ENTRE RÍOS       1300
+CHUBUT           1210
+SALTA            1146
+
 📦 Instrucciones para visualizar el mapa interactivo (HTML)
 
 Este paquete contiene el archivo mapa_establecimientos_completo_v3.html https://github.com/Macazella/Geolocalizacion_REFES/blob/DBA/mapa_establecimientos_completo_v3.zip, un mapa interactivo con más de 38.000 registros sanitarios públicos georreferenciados de Argentina (REFES).
 
 Para abrirlo correctamente:
 
-No hacer doble clic directo si usás navegadores como Chrome o Edge. En muchos casos se descarga automáticamente sin abrirse.
+1) No hacer doble clic directo si usás navegadores como Chrome o Edge. En muchos casos se descarga automáticamente sin abrirse.
 
-Abrí el archivo desde un navegador moderno:
+2) Abrí el archivo desde un navegador moderno:
 
-Botón derecho sobre el archivo .html → “Abrir con” → Elegí Firefox o Google Chrome.
+* Botón derecho sobre el archivo .html → “Abrir con” → Elegí Firefox o Google Chrome.
 
-Si se descarga en lugar de mostrarse, arrastrá el archivo manualmente a una pestaña vacía del navegador.
+* Si se descarga en lugar de mostrarse, arrastrá el archivo manualmente a una pestaña vacía del navegador.
 
 📌 El archivo puede tardar algunos segundos en cargar por su tamaño (más de 30MB con clusters interactivos).
 
